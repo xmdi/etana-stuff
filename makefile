@@ -1,4 +1,4 @@
 all:
-	@g++ DECAT.cpp -o DECAT -Ofast -std=c++14
+	@g++ DECAT.cpp -o DECAT -O2 -std=c++14
 test:
-	@./DECAT
+	@./DECAT Elm.csv Node.csv Prop.csv
